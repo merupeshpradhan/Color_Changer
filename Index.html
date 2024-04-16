@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="bg-fuchsia-50 w-full h-screen" id="container">
+        <h1 class="text-black text-center font-bold">Color Chnager</h1>
+        <p class="p-1 m-3 text black font-medium">Peak a color</p>
+        <div class=" m-3 flex bg-fuchsia-50 justify-center flex-wrap" id="allColors">
+        </div>
+        <p class="p-1 m-3 text black font-medium">Add New color</p>
+        <form class="m-3">
+            <input type="text" class="px-2 outline-indigo-400 py-1 bg-indigo-200 rounded text-white text-sm"
+                placeholder="Color Name">
+            <input type="submit" value="Add"
+                class="px-2 cursor-pointer hover:bg-indigo-700 ml-3 text-white bg-indigo-500 rounded">
+        </form>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
